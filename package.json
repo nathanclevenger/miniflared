@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "scripts": {
+    "start": "miniflare worker.js -m & cloudflared tunnel run --token $CLOUDFLARED_TOKEN"
+  },
   "dependencies": {
     "cloudflared": "^0.3.3",
     "miniflare": "^2.11.0"
