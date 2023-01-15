@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "cloudflared": "^0.3.3",
+    "miniflare": "^2.11.0"
+  }
+}
